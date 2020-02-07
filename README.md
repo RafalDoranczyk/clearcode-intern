@@ -4,13 +4,12 @@ My solution of two internship tasks.
 
 ## How to run the project
 
-Both tasks are written in JavaScript for running in Node.js mainly, so make sure you have Node.js installed. Open the terminal and simply run <node taskName>.
-You should see the solution in the console.
+Both tasks are written in JavaScript for running in Node.js mainly, so make sure you have Node.js installed. Clone the project, open the terminal and simply run 'node taskName'. You should see the solution in the console.
 
 ### Task 1 solution
 
 First of all, I create while loop for each element(string) in given array.
-Inside loop, I check if there is any bracket in string. If there is, I can replace brackets with empty string and increment power. If there is no match that means string is not empty so group is not formed properly so power is 0.
+Inside loop, I check if there is any bracket in string. If there is I repeat it every time, replacing brackets with empty string and incrementing power. No match inside while loop means that string is not empty so group is not formed properly so power is 0.
 Finally, I return max value index if there is only one max value in array otherwise undefined.
 
 ### Task 2 solution
